@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  display: block;
+  margin: 0 auto;
+  height: 25rem;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+.search {
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+h1 {
+  color: #ffc93c;
+  position: relative;
+  font-size: 120px;
+  left: 5px;
+}
+h2 {
+  color: #1e5f74;
+  position: relative;
+  font-size: 55px;
+  left: 150px;
+  top: -130px;
+}
+ul {
+  color: #07689f;
+  font-size: 25px;
+  position: relative;
+  top: -195px;
+  right: -52%;
+}
+p {
+  color: #00b7c2;
+  position: relative;
+  top: -190px;
+  font-size: 20px;
+  left: 155px;
+}
+.week {
+  color: #0f4c75;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  position: relative;
+  top: -170px;
+  left: 20px;
+}
