@@ -21,6 +21,7 @@ function formatDate(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
+
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -32,6 +33,7 @@ function displayWeatherCondition(response) {
     response.data.wind.speed
   );
   
+  
 }
 
 function search(event) {
@@ -41,8 +43,6 @@ function search(event) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayWeatherCondition);
   
-
-
 }
 
 let dateElement = document.querySelector("#date");
