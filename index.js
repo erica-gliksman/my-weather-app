@@ -40,9 +40,7 @@ function search(event) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayWeatherCondition);
 
-  //let cityElement = document.querySelector("#city");
-  //let cityInput = document.querySelector("#city-input");
-  //cityElement.innerHTML = cityInput.value;
+
 }
 
 let dateElement = document.querySelector("#date");

@@ -4,12 +4,12 @@ body {
 .card {
   display: block;
   margin: 0 auto;
-  height: 25rem;
+  height: 18rem;
 }
 .container {
   display: block;
   margin: 0 auto;
-  padding-left: 40px;
+  padding-left: 90px;
 }
 .search {
   display: block;
@@ -20,35 +20,27 @@ h1 {
   color: #ffc93c;
   position: relative;
   font-size: 120px;
-  left: 5px;
+  left: 85px;
 }
 h2 {
   color: #1e5f74;
   position: relative;
   font-size: 55px;
-  left: 150px;
-  top: -130px;
+  left: 220px;
+  top: -140px;
 }
 ul {
   color: #07689f;
+  list-style-type: none;
   font-size: 25px;
   position: relative;
-  top: -195px;
+  top: -210px;
   right: -52%;
 }
 p {
   color: #00b7c2;
   position: relative;
-  top: -190px;
+  top: -205px;
   font-size: 20px;
-  left: 155px;
-}
-.week {
-  color: #0f4c75;
-  display: block;
-  margin: 0 auto;
-  font-size: 18px;
-  position: relative;
-  top: -170px;
-  left: 20px;
+  left: 225px;
 }
