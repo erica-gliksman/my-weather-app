@@ -31,6 +31,7 @@ function displayWeatherCondition(response) {
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+  
 }
 
 function search(event) {
@@ -39,6 +40,7 @@ function search(event) {
   let city = document.querySelector("#city-input").value;
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayWeatherCondition);
+  
 
 
 }
@@ -46,7 +48,10 @@ function search(event) {
 let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 let searchForm = document.querySelector(".search");
+let iconElement = document.querySelector("#icon");
 
 searchForm.addEventListener("submit", search);
 
 dateElement.innerHTML = formatDate(currentTime);
+iconElement.setAttribute("src",`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`); 
+iconElement.setAttribute("alt", response.data.weather[0].description);

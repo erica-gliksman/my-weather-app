@@ -16,10 +16,9 @@ body {
   margin: 0 auto;
   padding-top: 40px;
 }
-h1 {
-  color: #ffc93c;
+img {
   position: relative;
-  font-size: 120px;
+  font-size: 300px;
   left: 85px;
 }
 h2 {
@@ -27,20 +26,20 @@ h2 {
   position: relative;
   font-size: 55px;
   left: 220px;
-  top: -140px;
+  top: -90px;
 }
 ul {
   color: #07689f;
   list-style-type: none;
   font-size: 25px;
   position: relative;
-  top: -210px;
+  top: -165px;
   right: -52%;
 }
 p {
   color: #00b7c2;
   position: relative;
-  top: -205px;
+  top: -170px;
   font-size: 20px;
   left: 225px;
 }
