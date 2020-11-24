@@ -32,6 +32,7 @@ h2 {
 .units {
   font-size: small;
   line-height: 1;
+  top: -10px;
 }
 ul {
   color: #07689f;
