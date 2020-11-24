@@ -57,8 +57,8 @@ dateElement.innerHTML = formatDate(currentTime);
 
 function displayFahrenheitTemp(event) {
 event.preventDefault();
-celsiusLink.classList.remove("active");
-fahrenheitLink.classList.add("active");
+celsiusLink.classList.remove("units");
+fahrenheitLink.classList.add("units");
 let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
 let p = document.querySelector("#current-weather");
 p.innerHTML = Math.round(fahrenheitTemperature);
@@ -66,8 +66,8 @@ p.innerHTML = Math.round(fahrenheitTemperature);
 
 function displayCelsiusTemp(event) {
 event.preventDefault(); 
-celsiusLink.classList.add("active");
-fahrenheitLink.classList.remove("active");
+celsiusLink.classList.add("units");
+fahrenheitLink.classList.remove("units");
 let p = document.querySelector("#current-weather");
 p.innerHTML = Math.round(celsiusTemperature);
 }
