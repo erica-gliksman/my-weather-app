@@ -60,7 +60,7 @@ event.preventDefault();
 celsiusLink.classList.remove("units");
 fahrenheitLink.classList.add("units");
 let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
-let p = document.querySelector("#current-weather");
+let p = document.querySelector("#temperature");
 p.innerHTML = Math.round(fahrenheitTemperature);
 }
 
@@ -68,7 +68,7 @@ function displayCelsiusTemp(event) {
 event.preventDefault(); 
 celsiusLink.classList.add("units");
 fahrenheitLink.classList.remove("units");
-let p = document.querySelector("#current-weather");
+let p = document.querySelector("#temperature");
 p.innerHTML = Math.round(celsiusTemperature);
 }
 
